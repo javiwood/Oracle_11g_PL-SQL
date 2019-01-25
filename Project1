@@ -1,0 +1,15 @@
+--Assignment 2.1  Using Scalar Variables
+
+DECLARE
+  lv_test_date DATE := to_date('10-12-2012);
+  lv_test_num CONSTANT NUMBER(3) := 10; 
+  lv_test_txt VARCHAR2(10);
+BEGIN
+  lv_text_txt := 'Leon';
+  DBMS_OUTPUT.PUT_LINE(lv_test_date);
+  DBMS_OUTPUT.PUT_LINE(lv_test_num);
+  DBMS_OUTPUT.PUT_LINE(lv_test_text);
+END;
+  
+-- Assignment 2.2  Creating a Flowchart
+
