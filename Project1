@@ -13,3 +13,18 @@ END;
   
 -- Assignment 2.2  Creating a Flowchart
 
+DECLARE
+  lv_total_purchase NUMBER(3) := 150 ;
+  lv_rate CHAR(4) ;
+BEGIN
+  IF lv_total_purchase > 200 THEN
+    lv_rate := 'HIGH' ;
+  ELSIF v_total_purchase > 100 THEN
+    lv_rate := 'MID' ;
+  ELSE
+    lv_rate := 'LOW' ;
+  END IF;
+    DBMS_OUTPUT.PUT_LINE(v_rate);
+END;
+
+-- Assignment 2.3  
